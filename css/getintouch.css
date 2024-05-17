@@ -1,0 +1,237 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+
+.git-bg{
+    height: 600px;
+    width: 100vw;
+    background-image: url(/assets/images/mountains.avif);
+    background-size: 100vw 700px ;
+    background-repeat: no-repeat;
+   
+
+
+}
+.second-container{
+    height: 1400px;
+    width: 100vw;
+    
+}
+.box{
+    width: 70%;
+    background-color: white;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+
+}
+
+/* top of the box */
+.box-top{
+    width: 95%;
+    height: 10%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* middle of the box  */
+.box-middle{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+  
+    display: flex;
+}
+.middle-left{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+
+   
+}
+.mid-left-small-box{
+    width: 250px;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.box-image{
+    width: 100%;
+    height: 65%;
+    background-color: black;
+}
+.box-text{
+    height: 30%;
+    width: 100%;
+
+}
+.box-text h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+
+}
+.box-text p{
+
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-weight: 100;
+    font-size: 12px;
+
+}
+.box-rating{
+    width: 100%;
+    height: 5%;
+
+}
+.box-rating p{
+    padding-left: 10px;
+  
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.middle-right{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-box1{
+    width: 90%;
+    margin: 0 auto;
+    height: 40%;
+    /* border: 2px solid black; */
+    background-color: #EDEDED;
+    border-radius: 10px;
+}
+.form1{
+    width: 80%;
+    margin: auto;
+    height: 30%;
+    text-align: center;
+    
+}
+.form1 p{
+    padding-top: 20px;
+}
+.form1 h2{
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form2{
+    width: 80%;
+    margin: auto;
+    height: 40%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form2 input{
+    width: 90%;
+    height: 30%;
+    
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+
+}
+.form2 input::placeholder{
+    font-size: 20px;
+    opacity: 50%;
+}
+
+.form3{
+    width: 80%;
+    margin: auto;
+    height: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form3-head{
+    width: 100%;
+    height: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form3-head h2{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.form3-bar{
+    width: 100%;
+    height: 30%;
+}
+.form4{
+    width: 80%;
+    margin: auto;
+    height: 20%;
+    /* border: 2px solid black; */
+}
+.form4 button{
+    width: 50%;
+    margin-left: 60px;
+    height: 40%;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    background-color: #DF6951;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form4 button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.right-box2{
+    width: 90%;
+    margin: 0 auto;
+    height: 30%;
+    background-image: url(/assets/images/mid-right-2.png);
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+}
+.right-box3{
+    width: 90%;
+    margin: 0 auto;
+    height: 10%;
+    /* border: 2px solid black; */
+}
+
+
+/* bottom of the box */
+/* .box-bottom{
+    width: 95%;
+    height: 5%;
+    margin: auto;
+    /* border: 2px solid black; */
+/* } */

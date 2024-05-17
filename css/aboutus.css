@@ -1,0 +1,252 @@
+
+*{
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+.aboutusmain{
+    padding: 0;
+    width:100vw;
+    height:550px;
+    background-color: blue;
+   background-image: url(/assets/images/aboutusmain.jpg);
+   background-size:100vw 750px;
+   /* background-size: cover; */
+  }
+
+  .aboutusmaincontent{
+    width: 400px;
+    height: 100px;
+    margin-top: 180px;
+    margin-left: 550px;
+   background-image: url(/assets/images/aboutuscontent.png);
+   background-size: 400px 100px;
+  }
+.abpage2{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.promotion{
+    margin-top: 20px;
+    width:400px;
+    height:400px;
+  }
+  .promotioncontent{
+    margin-left: 20px;
+    width: 100%;
+    height: 40%;
+    max-width: 600px;
+  }
+  
+  .promotioncontent button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DF6951;
+    color:  #FFFFFF;
+    cursor: pointer;
+  }
+
+  .promotionimage{
+    margin-top: 20px;
+    width:400px;
+    height:400px;
+    background-image: url(/assets/images/Ellipse\ 626.png);
+    background-size: 400px 400px;
+  }
+
+  .abpage2footer{
+    width: 100vw;
+    height: 300px;
+    background-image: url(/assets/images/pleasent.jpg);
+    background-size: 100vw 600px;
+    background-repeat: no-repeat;
+    background-color: blue;
+  }
+  
+
+  .abpage3{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .abpage3image{
+    width:500px;
+    height:500px;
+    background-image: url(/assets/images/tourplan.jpg);
+    background-size: 500px 500px;
+    border-radius: 20px;
+  }
+
+
+.abpage3con{
+    margin-top: 20px;
+    width:400px;
+    height:500px;
+  }
+  .abpage3content{
+    width: 100%;
+    height: 40%;
+    max-width: 600px;
+  }
+  .abpage3contentimage{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .abpage4{
+    width: 100vw;
+    height: 900px;
+  }
+  .abpage4heading{
+    margin-top: 20px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .abpage4images{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid : auto auto/auto auto auto ;
+    gap :50px 100px ;
+    transition: 2s;
+  }
+
+  .abpage4images :hover{
+    scale: 1.1;
+    
+  }
+
+  .abpage4images :hover a{
+    font-size: 20px;
+    font-weight: 300;
+    color:darkgreen;
+  }
+  .abpage4img1{
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    background-image: url(/assets/images/bhimtal-lake.jpg);
+    background-size: 300px 300px;
+    border-radius: 20px;
+  }
+
+
+
+  .abpage4img2{
+    width: 300px;
+    height: 300px;
+    background-image: url(/assets/images/Badrinath.jpg);
+    background-size: 300px 300px;
+    border-radius: 20px;
+  }
+
+
+  .abpage4img3{
+    width: 300px;
+    height: 300px;
+    background-image: url(/assets/images/haridwar.avif);
+    background-size: 300px 300px;
+    border-radius: 20px;
+  }
+
+
+  .abpage4img4{
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    background-image: url(/assets/images/Kedarnath_Temple_in_Rainy_season.jpg);
+    background-size: 300px 300px;
+    border-radius: 20px;
+  }
+
+
+  .abpage4img5{
+    width: 300px;
+    height: 300px;
+    background-image: url(/assets/images/Places-to-visit-in-Ranikhet.jpg);
+    background-size: 300px 300px;
+    border-radius: 20px;
+  }
+
+  .abpage4img6{
+    width: 300px;
+    height: 300px;
+    background-image: url(/assets/images/ranikhet-zoo1.jpg);
+    background-size: 300px 300px;
+    border-radius: 20px;
+  }
+
+
+
+  
+.abpage5{
+    width: 100vw;
+    height: 500px;
+    background-image: url(/assets/images/page7backgroundimage.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .abpage5content{
+    width: 500px;
+    height: 350px;
+  }
+  
+  .abfooter{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .abfooter a{
+    display: block;
+    margin: 10px;
+  }
+  
+  .abfooter input{
+    width:200px ;
+    height:40px ;
+    border: none;
+    background-color: lightblue;
+    border-radius: 5px;
+  }
+  .abfooter button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    background-color: #DF6951;
+    color:  #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .footerlogo{
+    width:90px;
+    height: 50px;
+    margin-left: 15px;
+    padding-left: 15px;
+    background-image: url(/assets/images/footerlogo.png);
+    background-size: 90px 50px;
+    background-repeat: no-repeat;
+  }

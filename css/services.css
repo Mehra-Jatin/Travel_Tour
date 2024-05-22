@@ -9,7 +9,7 @@
     width:100vw;
     height:750px;
     background-color: blue;
-   background-image: url(/assets/images/mountains.avif);
+   background-image: url(/Travel_Tour/assets/images/mountains.avif);
    background-size:100vw 750px;
    /* background-size: cover; */
   }

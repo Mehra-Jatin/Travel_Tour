@@ -6,7 +6,7 @@
 .git-bg{
     height: 600px;
     width: 100vw;
-    background-image: url(/assets/images/mountains.avif);
+    background-image: url(/Travel_Tour/assets/images/mountains.avif);
     background-size: 100vw 700px ;
     background-repeat: no-repeat;
    
@@ -215,7 +215,7 @@
     width: 90%;
     margin: 0 auto;
     height: 30%;
-    background-image: url(/assets/images/mid-right-2.png);
+    background-image: url(/Travel_Tour/assets/images/mid-right-2.png);
     background-size: 350px 350px;
     background-repeat: no-repeat;
     /* border: 2px solid black; */

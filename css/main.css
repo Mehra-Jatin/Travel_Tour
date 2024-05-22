@@ -9,7 +9,7 @@
   width:100vw;
   height:750px;
   background-color: blue;
- background-image: url(/assets/images/mountains.avif);
+ background-image: url(https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=pexels-pixabay-417173.jpg&fm=jpg);
  background-size:100vw 750px;
  /* background-size: cover; */
 }
